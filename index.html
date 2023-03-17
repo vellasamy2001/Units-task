@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+     <title> FONT </title>
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap" rel="stylesheet">
+<style>
+   
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,400;1,600;1,700;1,800&display=swap');
+   h1{ color: blue;
+   text-align:center;
+   text-decoration:underline dotted;
+   font-family: 'Open Sans', sans-serif;
+   font-weight:800;
+   }
+   .box{ border:solid 6px pink;
+        margin-bottom:6px;
+		padding:10px;
+	}
+   div{ font-size:12px;
+   }
+   .mm{ font-size:12px;
+   }
+   .mm{ font-size:2mm;
+   }
+   .in{ font-size:12px;
+   }
+   .in{ font size:1in;
+   }
+   .vw{ font-size:2vw;
+   }
+   .vh{ font-size:10vh;
+   }
+   .em{ font-size:48px;
+   }
+   .em{ font-size:3em;
+   }
+   html{ font-size:32px;
+   }
+   .rem{ font-size:2rem;
+   }
+   .parent{ font-size:2rem;
+   background-color:red;
+   color:#fff;
+   width:100%;
+   }
+   .child{ font-size:1rem;
+   background-color:blue;
+   color:#fff;
+   weidth:100%;
+   }
+   
+   h2{ color:red;
+   text-align:center;
+   font-family: 'Open Sans', sans-serif;
+   font-weight:400;
+   }
+   .text1{ 
+   font-family:"times new roman",times,serif;
+   }
+   .text2{
+   font-family:"ui-serif",monospace,cursive;
+   }
+   .text3{  
+    font-family:"lucida console","courier new",monospace;
+   }
+   .text4{
+     font-family:"luminari",fantasy;
+   }
+   
+   .text5{
+     font-size:30px;
+	 font-style:italic;
+   }
+   .a{ 
+   font-weight:lighter;
+  text-align:center;
+   }
+   .b{ font-weight:bold;
+   text-align:center;
+   font-size:20px;
+   }
+   .c{ font-variant:normal;
+   text-align:center;
+   }
+   .d{ font-variant:small-caps;
+   text-align:center;
+   font-size:20px;
+   }
+   @font-face{ 
+   font-family:OpenSans_SemiCondensed-SemiBoldItalic;
+   src:url(font/OpenSans_SemiCondensed-SemiBoldItalic.ttf);
+   
+   }
+   .e{ font-family:OpenSans_SemiCondensed-SemiBoldItalic;
+   font-size:30px;
+   }
+  
+   .f{ font-family: 'BhuTuka Expanded One', cursive;
+   }
+    
+</style>
+</head>
+  <body>
+  <section class="box">
+   <h1> ABSOLUTE LENGTH UNITS </h1>
+   <div class="mm">
+      <h3 class="mm">absolute tag mm </h3>
+	</div>
+	<div class="in">
+	 <h3 class="in">absolute tag inches in </h3>
+	 </div>
+	 <div>
+	 <h3 class="vw">relative length units vw</h3>
+	 </div>
+	 <div>
+	 <h3 class="vh"> relative length units vh</h3>
+	 </div>
+	 <div>
+	 <h3 class="em">relative length units em </h3>
+	 </div>
+	 <div>
+	 <h3 class="rem"> relative length units rem </h3>
+	 </div>
+	 <div class="parent">
+	 <div class="child">
+	 <h2>relative length units</h2>
+	 </div>
+	 </div>
+	 </section>
+<section class="box">
+  <h1> FONT FAMILY </h1>
+  <h2> TIMES NEW ROMAN </h2>
+   <p class=text1> Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, 
+		and also to life in general.</p>
+    <h2> UI SERIF </h2>
+	<p class=text2>  Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, 
+		and also to life in general.</p>
+   <h2> COURIER NEW </h2>
+    <p class=text3>   Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, 
+		and also to life in general.</p>
+	<h2> FANTASY </h2>
+	<p class=text4>   Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, 
+		and also to life in general.</p>
+</section>
+<section class="box">
+	<h1> FONT SIZE </h1>
+	<p class=text5>  Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, 
+		and also to life in general.</p>
+</section>
+<section class="box">
+	<h1> FONT-WEIGHT </h1>
+	<h2> font weight lighter </h2>
+	  <p class=a> this is a word property </p>
+	  <h2> font weight bold </h2>
+	  <p class=b> this is a word property </p>
+</section>
+<section class="box">
+	 <h1> font varient </h1>
+	 <h2> font normal </h2>
+	 <p class=c>  Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, 
+		and also to life in general </p>
+	 <h2> font small caps </h2>
+	 <p class=d> Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, 
+		and also to life in general  </p>
+</section>
+<section class="box">
+	<h1> FONT FACE </h1>
+	<h2> @font face rule </h2>
+	<div class="e">  Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, 
+		and also to life in general.</div>
+</section>
+<section class="box">
+   <h1> GOOGLE FONT </h1>
+   <p class="f"> Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, 
+		and also to life in general  </p>
+		</section>
+
+
+</body>
+</html>
